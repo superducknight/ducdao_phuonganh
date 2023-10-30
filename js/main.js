@@ -213,12 +213,18 @@
 		$(window).stellar();
 	};
 
+	// var onLinkClick = () => {
+	// 	document.getElementById('fh5co-event')[3].scrollIntoView();
+	// 	document.getElementById('fh5co-gallery')[3].scrollIntoView();
+	// 	document.getElementById('fh5co-services')[3].scrollIntoView();
+	// };
+
 	
 	$(function(){
 		mobileMenuOutsideClick();
 		parallax();
-		offcanvasMenu();
-		burgerMenu();
+		// offcanvasMenu();
+		// burgerMenu();
 		contentWayPoint();
 		dropdown();
 		testimonialCarousel();
@@ -226,6 +232,7 @@
 		loaderPage();
 		counter();
 		counterWayPoint();
+		// onLinkClick();
 	});
 
 

@@ -12,6 +12,7 @@
 *
 * ======================================================= */
 body {
+  scroll-behavior: smooth;
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -863,7 +864,7 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 24px;
+    font-size: 30px;
   }
 }
 #fh5co-header .display-tc h2,
